@@ -196,7 +196,7 @@ const App = () => {
                 {items.length ?
                     items.map(item => <div key={item.id} className="item">
                         <div className="item_wrapper">
-                            <img src="/images/photo_icon.jpg" alt="Картинка"></img>
+                            <img src="./images/photo_icon.jpg" alt="Картинка"></img>
                             <div className="item_description">
                                 {!!item.id ? <p>{item.id}</p> : <p>&nbsp;</p>}
                                 {!!item.brand ? <p>{item.brand}</p> : <p>&nbsp;</p>}
