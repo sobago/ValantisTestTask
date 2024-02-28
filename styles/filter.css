@@ -1,0 +1,13 @@
+.filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filter > div, .filter > form > label {
+    padding: 0 0.2rem;
+}
+
+.filter > form {
+    display: flex;
+}
