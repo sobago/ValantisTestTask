@@ -1,4 +1,4 @@
-API_URL = 'http://api.valantis.store:40000/';
+API_URL = 'https://api.valantis.store:41000/';
 PASSWORD = 'Valantis';
 
 const GoodsService = {
