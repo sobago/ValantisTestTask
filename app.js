@@ -5,7 +5,7 @@ const e = React.createElement;
 
 const App = () => {
     const [loading, setLoading] = React.useState(true)
-    const [limit, setLimit] = React.useState(5)
+    const [limit, setLimit] = React.useState(50)
     const [page, setPage] = React.useState(0)
 
     const [itemsIds, setItemsIds] = React.useState([])
